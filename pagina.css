@@ -1,0 +1,225 @@
+ /* reset.css */
+
+  /* Zerar margin, padding e border em todos os elementos */
+  * {
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  /* Definir estilos de fonte para elementos de cabeçalho */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 1em;
+    font-weight: normal;
+  }
+
+  /* Remover decoração de link padrão */
+  a {
+    text-decoration: none;
+  }
+
+  /* Definir display padrão para elementos de lista */
+  ul,
+  ol,
+  li {
+    list-style: none;
+  }
+
+  /* Zerar o espaçamento entre elementos de lista */
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Definir display padrão para elementos de bloco e inline */
+  p,
+  div,
+  span {
+    display: block;
+  }
+
+  /* Zerar espaçamento vertical para elementos de imagem */
+  img {
+    vertical-align: middle;
+  }
+
+  /* Resetar estilos de formulário */
+  input,
+  textarea,
+  select,
+  button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+  }
+
+  /* Resetar estilo de botão padrão */
+  button {
+    cursor: pointer;
+  }
+
+  /* Definir box-sizing para borda-modelo de caixa */
+  html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  body {
+    font-family:'Poppins', sans-serif;
+    background: lightskyblue;
+}
+  .icons {
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+    fill: white;
+  }
+
+  .foto {
+    border-radius: 50%;
+  }
+
+  .nome {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: left;
+    font-weight: 400;
+  }
+
+  .desenvolvimentoFA {
+    font-size: 18px;
+    text-align: left;
+
+  }
+
+  p {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .formacao_academica p {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .formacao_academica p.data {
+    font-size: 13px;
+  }
+
+  .formacao_academica h3 {
+    font-size: 18px;
+  }
+
+  .margin_top {
+    margin-top: 20px;
+  }
+
+  .containerPessoal {
+    display: flex;
+    width: 33%;
+    flex-direction: column;
+    background-color: #003147;
+    color: white;
+    padding: 40px;
+
+  }
+
+  .containerSobremim {
+    display: flex;
+    width: 67%;
+    flex-direction: column;
+    padding: 40px;
+  }
+
+  .container {
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+    background: white;
+  }
+
+  .containerImg {
+    display: flex;
+    align-items: center;
+    fill: white;
+  }
+  .fotoCurriculo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .titulo{
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .containerContato{
+    padding-top: 40px;
+  }
+  .formacao_academica{
+    padding-top: 40px;
+  }
+  .containerImg img {
+    display: flex;
+    align-items: center;
+  }
+  .sobremim {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .conteudo {
+    font-size: 15px;
+  }
+  .containertexto {
+    margin-bottom: 50px;
+  }
+  .containerExperiencia {
+    margin-bottom: 50px;
+  }
+  .experiencias {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .data {
+   flex: 1;
+   flex-basis: 20%;
+  }
+  .funcaoCompetencias {
+    display: flex;
+    flex: 1;
+    flex-basis: 80%;
+    flex-direction: column;
+    align-items: start;
+  }
+  .competencias {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+  }
+  .competencias a {
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .funcao b {
+    font-size: 20px;
+    font-weight: 500;
+  }
